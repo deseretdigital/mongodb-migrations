@@ -85,6 +85,8 @@ EOT
         } else {
             $version->markNotMigrated();
         }
+
+        return 0;
     }
 
     protected function createMigration(Configuration $configuration)

@@ -118,6 +118,8 @@ EOT
         }
 
         $migration->migrate($version);
+
+        return 0;
     }
 
     protected function createMigration(Configuration $configuration)
